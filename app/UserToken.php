@@ -32,7 +32,7 @@ class UserToken extends Model
     {
         return [
             'status'    =>  0,
-            'message'   =>  'Token geçersiz.'
+            'message'   =>  'Token is invalid.'
         ];
     }
 }
